@@ -1,0 +1,10 @@
+﻿=> L'appli fonctionne maintenant sur la tablette Samsung. Son gpu était sur la blacklist de Crosswalk. Le probleme est resolu en installant le plugin Cordova de Crosswalk, et en suivant les instructions sur cette page:
+https://crosswalk-project.org/documentation/about/faq.html#Canvas-and-WebGL-support
+
+=> J'utilise le plugin Cordova suivant pour afficher la prévisualisation de la caméra, comme fond par dessus lequel Three.js dessine:
+https://github.com/mbppower/CordovaCameraPreview
+Cependant l'autofocus est manquant et l'image à l'air d'être à une résolution trop basse.
+Une solution est proposée sur la page suivante, et résout le problème pour Android:
+https://github.com/mbppower/CordovaCameraPreview/issues/53
+
+=> La scene peut maintenant être éditée via le fichier "www/assets/scenes/scene.json".
